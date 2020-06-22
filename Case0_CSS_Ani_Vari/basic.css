@@ -42,7 +42,10 @@ div.grid2 {
 }
 
 div.grid3 {
-	background-color: blue;
+	background-color: pink;
+	animation-name: ani_grid3;
+    animation-duration: 1s;
+	animation-iteration-count: infinite;
 }
 
 div.grid4 {
@@ -62,6 +65,15 @@ div.grid4 {
 	60% {background-color: red;}
 	80% {background-color: blue;}
 	100% {background-color: green;}
+}
+
+@keyframes ani_grid3 {
+    from {
+    margin-left: 0px;
+  }
+  to {
+    margin-left: 20px;
+  }
 }
 
 .fas {
